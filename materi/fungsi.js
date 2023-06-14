@@ -9,9 +9,12 @@ function validateForm(event) {
 
   // Ganti dengan nama yang diharapkan
   if (nama === "bangkrisna_") {
-    window.location.href =
-      "https://drive.google.com/file/d/1Okd5O5lM1Lpu2mu_4X6UCITMRfhKOOVE/view?usp=drive_link"; // Ganti dengan URL landing page selanjutnya
+    window.location.href = "https://drive.google.com/file/d/1Okd5O5lM1Lpu2mu_4X6UCITMRfhKOOVE/view?usp=drive_link";
   } else {
-    alert("Pasti Ga Follow!");
-  }
+    Swal.fire({
+      title: 'Masukin IG yang bener',
+      icon: 'error',
+      confirmButtonText: 'OK'
+    });
+  }  
 }
