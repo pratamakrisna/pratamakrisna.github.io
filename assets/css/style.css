@@ -213,9 +213,9 @@ h6 {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   color: #050d18;
 }
@@ -1404,6 +1404,7 @@ section {
 
 .contact-us .php-email-form button[type=submit]:hover {
   background: #007ed8;
+  color: white;
 }
 
 @keyframes animate-loading {

@@ -15,14 +15,14 @@ body {
 }
 
 a {
-  color: #006fbe;
+  /* color: #006fbe; */
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: #008df1;
   text-decoration: none;
-}
+} */
 
 h1,
 h2,
@@ -234,9 +234,9 @@ h6 {
     }
 
     /* mouse over link */
-    .table a:hover {
+    /* .table a:hover {
       color: rgb(25, 57, 199);
-    }
+    } */
 
     /* selected link */
     .table a:active {
